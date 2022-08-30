@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="src/css/reset.css" rel="stylesheet">
+        <link href="src/css/base.css" rel="stylesheet">
+        <link href="src/css/pomodoro.css" rel="stylesheet">
+        <link href="src/css/rodape.css" rel="stylesheet">
+        <title>Pomodoro timer | Pscaio</title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="pomodoro">
+            <h1 class="pomodoro__titulo">Pomodoro</h1>
+            
+            <div class="pomodoro__painel">
+                <p class="pomodoro__painel-texto ativo" data-work>work</p>
+                <p class="pomodoro__painel-texto" data-break>break</p>
+            </div>  
+        
+            <div class="pomodoro__timer">   
+                <p class="pomodoro__timer-item" data-min></p>
+                <p class="pomodoro__timer-item">:</p>
+                <p class="pomodoro__timer-item" data-seg></p>
+            </div>
+            
+
+            <div class="pomodoro__controles">
+                <button class="botao" data-comecar>Começar</button>
+                <button class="botao" data-recomecar>Recomeçar</button>
+            </div>
+    </section>
+
+    <footer class="rodape">
+        <p class="rodape__paragrafo">Desenvolvido por Caio Pereira 2022 &copy; </p>
+        <ul class="rodape__social">
+            <li>
+                <a href="https://www.linkedin.com/in/pscaio/" target="_blank" rel="noopener noreferrer" class="rodape__midia"><img class="icon-social" src="src/img/redes/linkedin.png" alt="Linkedin"></a>
+            </li>
+            <li>
+                <a href="https://github.com/pscaio" target="_blank" rel="noopener noreferrer" class="rodape__midia"><img class="icon-social" src="src/img/redes/github.png" alt="Github"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/p.scaio/" target="_blank" rel="noopener noreferrer" class="rodape__midia"><img class="icon-social" src="src/img/redes/instagram.png"
+                        alt="Instagram"></a></li>
+            <li>
+                <a href="https://twitter.com/pscaio_" target="_blank" rel="noopener noreferrer" class="rodape__midia"><img class="icon-social" src="src/img/redes/twitter.png" alt="Twitter"></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="src/js/script.js"></script>
+</body>
+</html>

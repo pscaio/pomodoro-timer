@@ -1,0 +1,14 @@
+:root {
+    --cor-branco: #EEEEEE;
+    --cor-preto: #222831;
+    --cor-fundo: #11052C;
+    --cor-painel: #393E46;
+    --cor-amarelo: #FFD369;
+    --fonte: 'Nunito', sans-serif; /*bold 600*/
+    --fonte-timer: 'Noto Sans JP', sans-serif;
+}
+
+* {
+    background: var(--cor-fundo);
+    color: #FFF;
+}
